@@ -57,25 +57,35 @@ Se debe crear un entorno virtual con virtualenv:
 
 Instalación:
 
-![Alt text](media/image-4.png)
+```sh
+  pip install virtualenv 
+```
 
 Creación del entorno virtual llamado .env:
 
-![Alt text](media/image-5.png)
+```sh
+  virtualenv .env
+```
 
 Activación del entorno virtual:
 
-![Alt text](media/image-6.png)
+```sh
+  .env\Scripts\activate
+```
 
 Se deben instalar todas las librerías necesarias con <code> pip install -r requirements.txt </code> con el entorno activado.
 
-![Alt text](media/image-7.png)
+```sh
+  pip install -r requirements.txt
+```
 
 ## Uso
 
-Se inicia el asistente virtual con <code>streamlit run App_docs.py</code>
+Se inicia el asistente virtual
 
-![Alt text](media/image-8.png)
+```sh
+  streamlit run App_docs.py
+```
 
 ## Estado del proyecto
 
